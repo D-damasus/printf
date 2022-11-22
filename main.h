@@ -15,11 +15,6 @@
 #define F_ZERO 4
 #define F_HASH 8
 #define F_SPACE 16
-#define PLUS_FLAG (flags & 1)
-#define SPACE_FLAG ((flags >> 1) & 1)
-#define HASH_FLAG ((flags >> 2) & 1)
-#define ZERO_FLAG ((flags >> 3) & 1)
-#define MINUS_FLAG ((flags >> 4) & 1)
 
 /* SIZES */
 #define S_SHORT 1
